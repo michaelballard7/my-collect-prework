@@ -6,6 +6,6 @@ def my_collect(array)
     yield new_arr[i]
     i += 1
   end
-  array
+  new_arr
 end
 
